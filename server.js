@@ -22,7 +22,7 @@ connection.once("open", () => {
 
 })
 
-const studentRouter = require("./routes/Student.js");
+const studentRouter = require("./routes/students.js");
 
 app.use("/student",studentRouter)
 
